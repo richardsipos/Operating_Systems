@@ -6,7 +6,7 @@
 //a nevet meg modositani is lehet.
 //#define MAX 500;
 
-int week[]={5,4,3,2,1,4,0};
+int week[]={10,10,10,10,10,10,10};
 char weekWorkers[7][500];
 
 
@@ -173,6 +173,29 @@ int main(){
                             }
                         }
                         if(nameExists==1){
+                            //Nev valtoztatas.
+                            char answerNameChange[200];
+                            printf("A neved szeretned megvaltoztatni?");
+                            scanf("%s%*c",answerNameChange);
+
+                            if(strncmp(answerNameChange,"igen",4)==0){
+                                printf("Mi legyen az uj neved?");
+                                
+                                char newName[200];
+                                scanf("%s%*c",newName);
+                                
+                                for(int i=0;i<7;i++){
+                                    if(strstr(weekWorkers[i],nameToDelete)!=NULL){
+                                        delete(nameToDelete,i);
+                                        applyIsSuccessfull(newName,i);
+                                        
+                                    }
+                                }
+                                strcpy(nameToDelete,newName);
+                            }else{
+                                printf("Nevvaltoztatas nem tortent.\n");
+                            }
+
                             int stillDelete = 1;
                             char dayReadIn[200];
                             while(stillDelete){
