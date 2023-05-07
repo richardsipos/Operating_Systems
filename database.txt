@@ -1,7 +1,7 @@
-Peter_Fuhr Kedves_Edina  Almasi_Peter
-Almasi_Peti Szemelytelen_Sziri Almasi_Peter Varga_Bence
-Homoru_Hunor Dombos_Mortin 
-Szegedi_Bence
-Teljes_Roli Hutka_Manny 
+Peter_Fuhr Kedves_Edina Multio_Ervin Mennyei_Attila Kiss_Kevin Motoros_Izabella Juhasz_Peter
+Almasi_Peti Dohor_Agi
+Homoru_Hunor Dombos_Mortin
+Varga_Bence Szegedi_Bence
+Teljes_Roli Hutka_Manny
 Emberes_Zsolti
-Koves_Erzsebet
+Morcos_Miki
